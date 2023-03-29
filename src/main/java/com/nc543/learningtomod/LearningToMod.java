@@ -28,7 +28,5 @@ public class LearningToMod {
         MinecraftForge.EVENT_BUS.register(this);
     }
 
-    private void setup(final FMLCommonSetupEvent event){
-        LOGGER.info("Hello from pre initilaization!");
-    }
+    private void setup(final FMLCommonSetupEvent event){}
 }
