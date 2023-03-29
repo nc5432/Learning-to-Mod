@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":[
+        {
+            "item": "learningtomod:beskar_block"
+        }
+    ],
+    "result":{
+        "item": "learningtomod:beskar_ingot",
+        "count": 9
+    }
+}

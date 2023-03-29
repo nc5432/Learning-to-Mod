@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":[
+        "###",
+        "###",
+        "###"
+    ],
+    "key":{
+        "#":{
+            "item": "learningtomod:beskar_ingot"
+        }
+    },
+    "result":{
+        "item": "learningtomod:beskar_block",
+        "count": 1
+    }
+}

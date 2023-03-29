@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "learningtomod:block/beskar_ore_block"
+        }
+    }
+}

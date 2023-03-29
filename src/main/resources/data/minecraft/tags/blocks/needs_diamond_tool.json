@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values":[
+        "learningtomod:beskar_block",
+        "learningtomod:block_of_beskar_ore",
+        "learningtomod:beskar_ore_block"
+    ]
+}
