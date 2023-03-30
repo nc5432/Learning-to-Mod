@@ -7,7 +7,7 @@ public class ModCreativeModeTab {
     public static final CreativeModeTab LEARNING_TAB = new CreativeModeTab("learningtab") {
         @Override
         public ItemStack makeIcon(){
-            return new ItemStack(BasicItems.BESKAR_INGOT.get());
+            return new ItemStack(Items.BESKAR_INGOT.get());
         }
     };
 }

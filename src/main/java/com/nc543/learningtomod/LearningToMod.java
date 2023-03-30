@@ -4,7 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import com.nc543.learningtomod.block.BasicBlocks;
-import com.nc543.learningtomod.item.BasicItems;
+import com.nc543.learningtomod.item.Items;
 
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -21,7 +21,7 @@ public class LearningToMod {
 
     public LearningToMod(){
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        BasicItems.register(eventBus);
+        Items.register(eventBus);
         BasicBlocks.register(eventBus);
         eventBus.addListener(this::setup);
 

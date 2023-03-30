@@ -3,7 +3,7 @@ package com.nc543.learningtomod.block;
 import java.util.function.Supplier;
 
 import com.nc543.learningtomod.LearningToMod;
-import com.nc543.learningtomod.item.BasicItems;
+import com.nc543.learningtomod.item.Items;
 import com.nc543.learningtomod.item.ModCreativeModeTab;
 
 import net.minecraft.world.item.BlockItem;
@@ -31,7 +31,7 @@ public class BasicBlocks {
     }
 
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block, CreativeModeTab tab){
-        return BasicItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
+        return Items.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
     }
 
     public static void register(IEventBus eventBus){
