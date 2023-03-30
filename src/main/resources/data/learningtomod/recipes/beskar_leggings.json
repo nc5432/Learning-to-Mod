@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":[
+        "#x#",
+        "# #",
+        "# #"
+    ],
+    "key":{
+        "#":{
+            "item": "learningtomod:beskar_ingot"
+        },
+        "x":{
+            "item": "minecraft:leather"
+        }
+    },
+    "result":{
+        "item": "learningtomod:beskar_leggings",
+        "count": 1
+    }
+}

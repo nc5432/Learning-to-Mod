@@ -18,6 +18,7 @@ public class Items{
     public static final RegistryObject<Item> BESKAR_ORE = ITEMS.register("beskar_ore", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.LEARNING_TAB).fireResistant()));
     public static final RegistryObject<Item> BESKAR_HELMET = ITEMS.register("beskar_helmet", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.LEARNING_TAB).fireResistant()));
     public static final RegistryObject<Item> BESKAR_CHESTPLATE = ITEMS.register("beskar_chestplate", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.LEARNING_TAB).fireResistant()));
+    public static final RegistryObject<Item> BESKAR_LEGGINGS = ITEMS.register("beskar_leggings", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.LEARNING_TAB).fireResistant()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
